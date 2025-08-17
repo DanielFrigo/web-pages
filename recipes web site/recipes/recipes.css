@@ -1,0 +1,45 @@
+* {
+    margin-left: 10px;
+}
+
+body {
+    /*
+    /*background-image: url("../culinary background image.png");*/
+    background-image: url("../cutting board.png");
+}
+
+table, th, td {
+    border: 2px solid;
+    border-collapse: collapse; /*no borders between cells*/
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/* Style Quantity, Calories, Price */
+table td:nth-child(2), table td:nth-child(4), table td:nth-child(5){
+  text-align: center;
+}
+
+tr.selected {
+  background-color: yellow;
+}
+
+dt {
+    font-size: 24px;
+    font-weight: bold;;
+}
+
+dd {
+    margin: 10px 10px;
+    max-width: 150ch ;
+}
+
+ul.special_notes li{
+    max-width: 150ch;
+}
+
+a i.material-icons {
+    color: rgb(12, 12, 163);
+    text-decoration: none;
+}
