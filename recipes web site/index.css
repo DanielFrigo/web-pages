@@ -7,3 +7,7 @@ body {
     /*background-image: url("../culinary background image.png");*/
     background-image: url("cutting board.png");
 }
+
+li {
+    margin-top: 3px;
+}
